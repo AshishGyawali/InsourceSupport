@@ -1,0 +1,785 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\InsourceSupport.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InsourceSupport.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\css\\custom\\Login.css",
+      "PackagePath": "staticwebassets\\css\\custom\\Login.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\css\\custom\\admin-style.css",
+      "PackagePath": "staticwebassets\\css\\custom\\admin-style.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\css\\custom\\fileUpload.css",
+      "PackagePath": "staticwebassets\\css\\custom\\fileUpload.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\css\\custom\\jquery.yzhanimageviewer.min.css",
+      "PackagePath": "staticwebassets\\css\\custom\\jquery.yzhanimageviewer.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\css\\custom\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\custom\\responsive.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\css\\custom\\style.css",
+      "PackagePath": "staticwebassets\\css\\custom\\style.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.components.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.components.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.core.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.core.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.light.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.light.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.pages.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.pages.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\dist\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\avatar4.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar4.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar5.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\dist\\img\\default-150x150.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\icons.png",
+      "PackagePath": "staticwebassets\\dist\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\dist\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\dist\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\prod-1.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\prod-2.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\prod-3.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\prod-4.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\prod-5.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\dist\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\demo.js",
+      "PackagePath": "staticwebassets\\dist\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\dist\\js\\pages\\dashboard3.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard3.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\.DS_Store"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\38f71bd9-3a10-4086-8dcf-006a8df5b506_1.1.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\38f71bd9-3a10-4086-8dcf-006a8df5b506_1.1.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\4696271b-7fab-429e-9376-7d3496b5ac90_businessman-g8c03c64c6_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\4696271b-7fab-429e-9376-7d3496b5ac90_businessman-g8c03c64c6_1920.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\5c0bda43-8efe-4b68-92e6-123766b1dbe1_pexels-andrea-piacquadio-845451.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\5c0bda43-8efe-4b68-92e6-123766b1dbe1_pexels-andrea-piacquadio-845451.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\7d290a8b-ddbd-472b-969f-999cc6e67e3f_1.1.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\7d290a8b-ddbd-472b-969f-999cc6e67e3f_1.1.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\9f158368-a910-4a81-bc4c-fbd6e7efbaad_1.1.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\9f158368-a910-4a81-bc4c-fbd6e7efbaad_1.1.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\aa3398da-f07a-4bfc-b8e5-f636abf614c7_pexels-andrea-piacquadio-845451.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\aa3398da-f07a-4bfc-b8e5-f636abf614c7_pexels-andrea-piacquadio-845451.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\cd31c2f4-bce3-4ebd-93c0-e8d2720481c1_1.1.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\cd31c2f4-bce3-4ebd-93c0-e8d2720481c1_1.1.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\d40deeaa-fb44-452a-b307-911e4d9f83c1_321727169_5609068572535815_331361742774884286_n.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\d40deeaa-fb44-452a-b307-911e4d9f83c1_321727169_5609068572535815_331361742774884286_n.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\d5b4dbbf-a9dd-413f-9ae0-fb79e9f609f8_321727169_5609068572535815_331361742774884286_n.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\d5b4dbbf-a9dd-413f-9ae0-fb79e9f609f8_321727169_5609068572535815_331361742774884286_n.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\d9a33ef6-4635-48ee-94df-dd9f3a0b4159_question-g78e8068e4_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\d9a33ef6-4635-48ee-94df-dd9f3a0b4159_question-g78e8068e4_1920.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\IssuesScreenshot\\e266e410-1893-4cd9-ac50-4c599f03c160_businessman-g8c03c64c6_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\IssuesScreenshot\\e266e410-1893-4cd9-ac50-4c599f03c160_businessman-g8c03c64c6_1920.jpg"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\about.png",
+      "PackagePath": "staticwebassets\\images\\about.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner1.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\fevicon.png",
+      "PackagePath": "staticwebassets\\images\\fevicon.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\fileUpload\\fancy_microphone.png",
+      "PackagePath": "staticwebassets\\images\\fileUpload\\fancy_microphone.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\fileUpload\\fancy_okay.png",
+      "PackagePath": "staticwebassets\\images\\fileUpload\\fancy_okay.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\fileUpload\\fancy_remove.png",
+      "PackagePath": "staticwebassets\\images\\fileUpload\\fancy_remove.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\fileUpload\\fancy_upload.png",
+      "PackagePath": "staticwebassets\\images\\fileUpload\\fancy_upload.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\fileUpload\\fancy_webcam.png",
+      "PackagePath": "staticwebassets\\images\\fileUpload\\fancy_webcam.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\map.png",
+      "PackagePath": "staticwebassets\\images\\map.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\menu_icon.png",
+      "PackagePath": "staticwebassets\\images\\menu_icon.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\our.png",
+      "PackagePath": "staticwebassets\\images\\our.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\ser1.png",
+      "PackagePath": "staticwebassets\\images\\ser1.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\ser2.png",
+      "PackagePath": "staticwebassets\\images\\ser2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\ser3.png",
+      "PackagePath": "staticwebassets\\images\\ser3.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\ser4.png",
+      "PackagePath": "staticwebassets\\images\\ser4.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\ser5.png",
+      "PackagePath": "staticwebassets\\images\\ser5.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\test.png",
+      "PackagePath": "staticwebassets\\images\\test.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\track.png",
+      "PackagePath": "staticwebassets\\images\\track.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\track1.png",
+      "PackagePath": "staticwebassets\\images\\track1.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\track2.png",
+      "PackagePath": "staticwebassets\\images\\track2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\track3.png",
+      "PackagePath": "staticwebassets\\images\\track3.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\track4.png",
+      "PackagePath": "staticwebassets\\images\\track4.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\truc1.png",
+      "PackagePath": "staticwebassets\\images\\truc1.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\truc2.png",
+      "PackagePath": "staticwebassets\\images\\truc2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\truc3.png",
+      "PackagePath": "staticwebassets\\images\\truc3.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\truc4.png",
+      "PackagePath": "staticwebassets\\images\\truc4.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\why1.png",
+      "PackagePath": "staticwebassets\\images\\why1.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\images\\why2.png",
+      "PackagePath": "staticwebassets\\images\\why2.png"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\app\\enquiry.js",
+      "PackagePath": "staticwebassets\\js\\app\\enquiry.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\app\\utility\\utility.js",
+      "PackagePath": "staticwebassets\\js\\app\\utility\\utility.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\custom\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom\\custom.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\custom\\enquiryList-table.js",
+      "PackagePath": "staticwebassets\\js\\custom\\enquiryList-table.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\custom\\fileUpload.js",
+      "PackagePath": "staticwebassets\\js\\custom\\fileUpload.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\custom\\home-devexpress.js",
+      "PackagePath": "staticwebassets\\js\\custom\\home-devexpress.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\custom\\jquery.yzhanimageviewer.min.js",
+      "PackagePath": "staticwebassets\\js\\custom\\jquery.yzhanimageviewer.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\InsourceSupport\\InsourceSupport\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.InsourceSupport.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.InsourceSupport.props",
+      "PackagePath": "build\\InsourceSupport.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.InsourceSupport.props",
+      "PackagePath": "buildMultiTargeting\\InsourceSupport.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.InsourceSupport.props",
+      "PackagePath": "buildTransitive\\InsourceSupport.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

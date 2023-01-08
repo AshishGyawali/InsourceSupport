@@ -1,0 +1,34 @@
+﻿@using InsourceData.Models.Enquiry;
+@model IEnumerable<EnquiryListViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminDasboardLayout.cshtml";
+}
+
+<h1>Index</h1>
+<form>
+    <div class="form-row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Software Name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Module Name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Status" readonly>
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder=@DateTime.Today>
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder=@DateTime.Today.AddMonths(-1)>
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>
+<div id="gridContainer" class="mt-2"></div>
+@section Scripts{
+    <script src="/js/custom/enquiryList-table.js"></script>
+}
