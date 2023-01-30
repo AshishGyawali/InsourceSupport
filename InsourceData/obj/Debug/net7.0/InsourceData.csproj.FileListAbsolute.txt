@@ -22,3 +22,15 @@ D:\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.dll
 D:\InsourceSupport\InsourceData\obj\Debug\net7.0\refint\InsourceData.dll
 D:\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.pdb
 D:\InsourceSupport\InsourceData\obj\Debug\net7.0\ref\InsourceData.dll
+D:\projects\InsourceSupport\InsourceData\bin\Debug\net7.0\InsourceData.deps.json
+D:\projects\InsourceSupport\InsourceData\bin\Debug\net7.0\InsourceData.dll
+D:\projects\InsourceSupport\InsourceData\bin\Debug\net7.0\InsourceData.pdb
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.csproj.AssemblyReference.cache
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.AssemblyInfoInputs.cache
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.AssemblyInfo.cs
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.csproj.CoreCompileInputs.cache
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.dll
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\refint\InsourceData.dll
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\InsourceData.pdb
+D:\projects\InsourceSupport\InsourceData\obj\Debug\net7.0\ref\InsourceData.dll

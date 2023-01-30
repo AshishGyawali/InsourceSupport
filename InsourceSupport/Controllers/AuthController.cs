@@ -12,11 +12,13 @@ namespace InsourceSupport.Controllers
     {
         private readonly IAuthenticationRepository _authenticationRepo;
         private readonly ICryptoMD5 _cryptoMD5;
+        private readonly ILookupRepository _lookupRepo;
 
-        public AuthController(IAuthenticationRepository authenticationRepo, ICryptoMD5 cryptoMD5)
+        public AuthController(IAuthenticationRepository authenticationRepo, ICryptoMD5 cryptoMD5, ILookupRepository lookupRepo)
         {
             _authenticationRepo = authenticationRepo;
             _cryptoMD5 = cryptoMD5;
+            _lookupRepo = lookupRepo;
         }
 
         public IActionResult Login()
@@ -30,13 +32,19 @@ namespace InsourceSupport.Controllers
             if (ModelState.IsValid)
             {
                 var user = await _authenticationRepo.GetCredentials(details);
-                if (user != null && user.Password == _cryptoMD5.MD5Hash(details.Password))
+                if (user != null && user.Password == _cryptoMD5.MD5Hash(details.Password+user.Salt))
                 {
                     var claims = new List<Claim>
                         {
-                            new Claim(ClaimTypes.Name, "Ram"),
-                            new Claim("FullName", "Ram Pd"),
-                            new Claim(ClaimTypes.Role, "Administrator"),
+                            new Claim("UserId",user.Id.ToString()),
+                            new Claim(ClaimTypes.Name, user.FullName),
+                            new Claim("UserName", user.UserName),
+                            new Claim(ClaimTypes.Role, user.Role),
+                            new Claim(ClaimTypes.Email, user.Email),
+                            new Claim("ContactNumber", user.ContactNumber),
+                            new Claim("JoinedDate", user.JoinedDate.ToString()),
+                            new Claim("IsSystemUser", user.IsSystemUser.ToString()),
+
                         };
                     var claimsIdentity = new ClaimsIdentity(
                         claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -45,14 +53,14 @@ namespace InsourceSupport.Controllers
                     {
 
                     };
-
                     await HttpContext.SignInAsync(
                         CookieAuthenticationDefaults.AuthenticationScheme,
                         new ClaimsPrincipal(claimsIdentity),
                         authProperties);
 
                     TempData["success"] = "Successfully logged in";
-                    return RedirectToAction("AdminPanel", "Home");
+                    return Redirect("/Admin/Home/Index");
+                    //return RedirectToAction("Index", "Home", new { Area = "Admin" });
                 }
             }
             TempData["error"] = "Username or password incorrect";

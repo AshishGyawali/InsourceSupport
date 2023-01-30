@@ -1,4 +1,5 @@
-﻿using InsourceData.DB;
+﻿using Dapper;
+using InsourceData.DB;
 using InsourceData.Interface;
 using InsourceData.Models.Enquiry;
 using InsourceData.Models.ViewModel;
@@ -18,10 +19,16 @@ namespace InsourceData.Repository.admin
         {
             _db = database;
         }
-        public async Task<IEnumerable<EnquiryListViewModel>> GetEnquiryList()
+        public async Task<IEnumerable<EnquiryListViewModel>> GetEnquiryList(EnquiryViewBySearch enquiry)
         {
-            var query = "SELECT s.[Name] as SoftwareName,m.[Name] as ModuleName,e.[UserName],e.[FullName],e.[Email],e.[ContactNumber],e.[Issue],e.[Files] FROM [Enquiry] e INNER JOIN [Software] s ON e.[SoftwareId]=s.[Id] INNER JOIN [Module] m ON e.[ModuleId]=m.[Id];";
-            return await _db.ExecuteListAsync<EnquiryListViewModel>(query, CommandType.Text);
+            var query = "getEnquiry_sp";
+            var pram = new DynamicParameters();
+            pram.Add("softwareId", enquiry.SoftwareId, DbType.Int32);
+            pram.Add("moduleId", enquiry.ModuleId, DbType.Int32);
+            pram.Add("statusId", enquiry.StatusId, DbType.Int32);
+            pram.Add("dateFrom", enquiry.DateFrom, DbType.Date);
+            pram.Add("dateTo", enquiry.DateTo, DbType.Date);
+            return await _db.ExecuteListAsync<EnquiryListViewModel>(query, CommandType.StoredProcedure,pram);
         }
     }
 }

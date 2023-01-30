@@ -9,6 +9,6 @@ namespace InsourceData.Interface
 {
     public interface IIssueRepository
     {
-        public Task<IEnumerable<EnquiryListViewModel>> GetEnquiryList();
+        public Task<IEnumerable<EnquiryListViewModel>> GetEnquiryList(EnquiryViewBySearch enquiry);
     }
 }

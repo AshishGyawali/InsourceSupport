@@ -20,20 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/projects/InsourceSupport/InsourceSupport/Areas/Admin/Views/User/RegisterUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxSZWdpc3RlclVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/projects/InsourceSupport/InsourceSupport/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/projects/InsourceSupport/InsourceSupport/Views/Home/AdminPanel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblBhbmVsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/projects/InsourceSupport/InsourceSupport/Views/Home/datafetch.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkYXRhZmV0Y2guY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/projects/InsourceSupport/InsourceSupport/Views/Home/GetEnquiry.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRFbnF1aXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/projects/InsourceSupport/InsourceSupport/Views/Home/Index.cshtml]

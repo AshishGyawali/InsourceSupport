@@ -32,10 +32,18 @@ namespace InsourceData.Models.Enquiry
 
         [Required]
         [MinLength(15, ErrorMessage ="Please specify the problem in atleast 15 letters.")]
+
         public string Issue { get; set; }
 
         public List<IFormFile> Files { get; set; }
+
         public string FilePath { get; set; }
+
+        public int  DocumentNumber { get; set; }
+
+        public string Token { get; set; }
+
+        public string TokenStatusId { get; set; }
 
         public IEnumerable<KeyValueViewModel> Softwares { get; set; }
 
@@ -43,6 +51,7 @@ namespace InsourceData.Models.Enquiry
 
     public class EnquiryListViewModel
     {
+        public int Id { get; set; }
         public int SoftwareId { get; set; }
         public int ModuleId { get; set; }
         public string SoftwareName { get; set; }
@@ -53,5 +62,7 @@ namespace InsourceData.Models.Enquiry
         public string ContactNumber { get; set; }
         public string Issue { get; set; }
         public string Files { get; set; }
+        public string Token { get; set; }
+        public string TokenStatus { get; set; }
     }
 }

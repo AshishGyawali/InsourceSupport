@@ -3,6 +3,7 @@ using InsourceData.DB;
 using InsourceData.Interface;
 using InsourceData.Models;
 using InsourceData.Models.ViewModel;
+using InsourceData.Models.ViewModel.Auth;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -33,5 +34,20 @@ namespace InsourceData.Repository.Enquiry
             pram.Add("Id",softwareId,DbType.Int32);
             return await _db.ExecuteListAsync<KeyValueViewModel>(query, CommandType.Text,pram);
         }
+
+        public async Task<IEnumerable<KeyValueViewModel>> GetStatusList()
+        {
+            var query = "select id,[name] from TokenStatus;";
+            return await _db.ExecuteListAsync<KeyValueViewModel>(query, CommandType.Text);
+        }
+
+        public async Task<IEnumerable<KeyValueViewModel>> GetRoleList()
+        {
+            var query = "SELECT id,[name] FROM Role;";
+            return await _db.ExecuteListAsync<KeyValueViewModel>(query, CommandType.Text);
+        }
+
+
+
     }
 }

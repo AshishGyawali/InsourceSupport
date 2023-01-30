@@ -11,6 +11,7 @@ namespace InsourceData.Interface
 {
     public interface IAuthenticationRepository
     {
+        public Task<DbResponse> RegisterUser(RegisterUserViewModel credentials);
         public Task<LoginUserViewModel> GetCredentials(LoginViewModel credentials);
     }
 }

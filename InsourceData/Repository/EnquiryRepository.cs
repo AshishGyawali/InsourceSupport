@@ -26,10 +26,26 @@ namespace InsourceData.Repository
         {
             _db = database;
         }
+
+        public Task<DbResponse> ProcessIssue(int id)
+        {
+            var query = @"Update Enquiry set TokenStatusId = 2 where id = @id;";
+            var pram = new DynamicParameters();
+            pram.Add("id", id, DbType.Int32);
+            return _db.ExecuteNonQueryAsync(query,CommandType.Text,pram);
+        }
+        public Task<DbResponse> RejectIssue(int id)
+        {
+            var query = @"Update Enquiry set TokenStatusId = 4 where id = @id;";
+            var pram = new DynamicParameters();
+            pram.Add("id", id, DbType.Int32);
+            return _db.ExecuteNonQueryAsync(query, CommandType.Text, pram);
+        }
+
         public async Task<DbResponse> SaveEnquiry(EnquiryViewModel enquiry)
         {
-            var query = @"INSERT INTO Enquiry(SoftwareId, ModuleId, Username, FullName, Email, ContactNumber, Issue, Files)
-                          VALUES(@SoftwareId, @ModuleId, @Username, @FullName, @Email, @ContactNumber, @Issue, @Files);";
+            var query = @"INSERT INTO Enquiry(SoftwareId, ModuleId, Username, FullName, Email, ContactNumber, Issue, Files,DocumentNumber,Token,TokenStatusId)
+                          VALUES(@SoftwareId, @ModuleId, @Username, @FullName, @Email, @ContactNumber, @Issue, @Files, dbo.fn_getDocumentNumber('Enquiry',1), dbo.fn_getDocumentNumber('Enquiry',0),1);";
             var pram = new DynamicParameters();
             //if (enquiry.Files != null)
             //{
@@ -48,10 +64,7 @@ namespace InsourceData.Repository
             pram.Add("ContactNumber", enquiry.ContactNumber, DbType.String);
             pram.Add("Issue", enquiry.Issue, DbType.String);
             pram.Add("Files", enquiry.FilePath, DbType.String);
-            
-
             return await _db.ExecuteNonQueryAsync(query,CommandType.Text,pram);
-
         }
        
     }

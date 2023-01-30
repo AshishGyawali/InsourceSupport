@@ -7,6 +7,7 @@ using InsourceData.Repository.admin;
 using InsourceData.Repository.Auth;
 using InsourceData.Repository.Enquiry;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,7 @@ builder.Services.AddTransient<IEnquiryRepository, EnquiryRepository>();
 builder.Services.AddTransient<ICryptoMD5, CryptoMD5>();
 builder.Services.AddTransient<IAuthenticationRepository, AuthenticationRepository>();
 builder.Services.AddTransient<IIssueRepository, IssueRepository>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -35,7 +37,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 
 var app = builder.Build();
-
+var ctx = app.Services.GetService<IHttpContextAccessor>();
+SessionData.SetHttpContextAccessor(ctx);
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -63,14 +66,15 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapControllerRoute(
+    name: "areaRoute",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+);
+
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapControllerRoute(
-    name: "areaRoute",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-);
 
 app.Run();

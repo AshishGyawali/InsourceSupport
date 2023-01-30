@@ -51,5 +51,7 @@ namespace InsourceData.DB
             using var connection = _context.CreateConnection();
             return await connection.ExecuteScalarAsync(query, parameters, commandType: cType);
         }
+
+       
     }
 }

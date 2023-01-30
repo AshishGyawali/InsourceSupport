@@ -1,34 +1,33 @@
 ﻿@using InsourceData.Models.Enquiry;
 @model IEnumerable<EnquiryListViewModel>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Enquiries";
     Layout = "~/Views/Shared/_AdminDasboardLayout.cshtml";
 }
 
-<h1>Index</h1>
-<form>
-    <div class="form-row">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Software Name">
+<div>
+    <form id="enquirySearchKey">
+        <div class="form-row">
+            <div class="col mr-1" id="softwareName">
+                <div class="form-group col-md-6">
+                </div>
+            </div>
+            <div class="col mr-1" id="moduleName">
+            </div>
+            <div class="col mr-1" id="status">
+            </div>
+            <div class="col" id="dateFrom" style="margin-top:-2px;">
+            </div>
+            &nbsp;
+            <div class="col" id="dateTo" style="margin-top:-2px;">
+            </div>
+            <div class="col ml-1" id="searchButton">
+            </div>
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Module Name">
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Status" readonly>
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder=@DateTime.Today>
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder=@DateTime.Today.AddMonths(-1)>
-        </div>
-        <div class="col">
-            <button type="submit" class="btn btn-primary">Search</button>
-        </div>
-    </div>
-</form>
-<div id="gridContainer" class="mt-2"></div>
+    </form>
+    <div id="gridContainer" class="mt-2"></div>
+</div>
+
 @section Scripts{
     <script src="/js/custom/enquiryList-table.js"></script>
 }

@@ -1,6 +1,45 @@
-﻿.issueImages img{
+﻿.issueImages img {
     margin: 10px;
     height: 100px;
     width: 100px;
 }
 
+.under-process {
+    background-color: #b3d1dd;
+}
+
+.resolved {
+    background-color: #aee1ae;
+}
+
+.rejected {
+    background-color: #f5d2d2;
+}
+
+.ambigious {
+    background-color: #f3f3b7;
+}
+
+.dx-button.dx-button-warning {
+    background-color: #ffc107;
+    color:white;
+}
+.dx-button-warning .fa-exclamation {
+    color: white !important;
+}
+
+.dx-button-warning:hover {
+    background-color: orange !important;
+    color: white;
+}  
+
+
+@media only screen and (min-width: 992px) {
+    iframe.nepali-date {
+        margin-left: 125px;
+    }
+
+    .issueContent {
+        margin-top: -80px;
+    }
+}

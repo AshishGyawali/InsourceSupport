@@ -11,6 +11,8 @@ using System.Reflection;
 using InsourceData.DB;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Authorization;
+using Utility;
+using Microsoft.AspNetCore.Http;
 
 namespace InsourceSupport.Controllers
 {
@@ -24,13 +26,16 @@ namespace InsourceSupport.Controllers
 
         private readonly IIssueRepository _issueRepo;
 
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public HomeController(ILogger<HomeController> logger, ILookupRepository lookupRepo, IEnquiryRepository enquiryRepo, IIssueRepository issueRepo)
+
+        public HomeController(ILogger<HomeController> logger, ILookupRepository lookupRepo, IEnquiryRepository enquiryRepo, IIssueRepository issueRepo, IHttpContextAccessor httpContextAccessor)
         {
             _logger = logger;
             _lookupRepo = lookupRepo;
             _enquiryRepo = enquiryRepo;
             _issueRepo = issueRepo;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<IActionResult> IndexAsync()

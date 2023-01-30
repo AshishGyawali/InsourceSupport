@@ -11,6 +11,8 @@ namespace InsourceData.Interface
 {
     public interface IEnquiryRepository
     {
+        public Task<DbResponse> ProcessIssue(int id);
+        public Task<DbResponse> RejectIssue(int id);
         public Task<DbResponse> SaveEnquiry(EnquiryViewModel enquiry);
     }
 }
